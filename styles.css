@@ -25,6 +25,15 @@ body.dark-mode {
 }
 
 .container_intro {
-    height: 300px;
-    margin: 300px;
+    height: 50%;
+    /* Instead of fixed pixel height */
+    margin: 5%;
+    /* Instead of fixed pixel margin */
+}
+
+@media (max-width: 768px) {
+    .container_intro {
+        height: 30%;
+        margin: 3%;
+    }
 }
