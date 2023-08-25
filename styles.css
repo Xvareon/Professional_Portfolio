@@ -1,0 +1,30 @@
+/* Default Theme */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+/* Custom card image sizing */
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    /* This ensures the image maintains its aspect ratio and covers the container */
+}
+
+.card {
+    height: 600px;
+    margin: 10px;
+    object-fit: cover;
+    /* This ensures the image maintains its aspect ratio and covers the container */
+}
+
+.container_intro {
+    height: 300px;
+    margin: 300px;
+}
